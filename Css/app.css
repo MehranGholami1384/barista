@@ -18,7 +18,7 @@
 }
 
 * {
-    list-style-type: none;
+    list-style-type: none !important;
 }
 
 :root {
@@ -69,10 +69,26 @@ a:focus {
     cursor: pointer !important;
 }
 
+.font-vazir-light {
+    font-family: 'Vazir Light' !important;
+}
+
 .fs-12px {
     font-size: 12px !important;
 }
 
 .fs-13px {
     font-size: 13px !important;
+}
+
+.fs-15px {
+    font-size: 15px !important;
+}
+
+.deg180 {
+    transform: rotate(180deg) !important;
+    -webkit-transform: rotate(180deg) !important;
+    -moz-transform: rotate(180deg) !important;
+    -ms-transform: rotate(180deg) !important;
+    -o-transform: rotate(180deg) !important;
 }

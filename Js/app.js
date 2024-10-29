@@ -11,6 +11,19 @@ $(document).ready(function () {
         return replaceString;
     };
 
+    $('.nav-link').hover(function () {
+        let icon = $(this).find('.nav-link-caret-down')[0]
+        let subMenu = $(this).find('.sub-menu')[0]
+
+        if (icon) {
+            $(icon).toggleClass('deg180')
+        }
+
+        if (subMenu) {
+            $(subMenu).toggleClass('invisible opacity-0')
+        }
+    })
+
     function convertAllDigitsToPersian() {
         $("*:not(script):not(style)").each(function() {
             if ($(this).children().length === 0) {
