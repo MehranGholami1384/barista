@@ -27,7 +27,8 @@
     --color-gray1: #ccc;
     --color-green1: #4D8B55;
     --color-white1: #ffffff;
-    --color-white2: rgba(255, 255, 255, 0.6);
+    --color-white2: #ffffff99;
+    --color-overlay: #000000b3;
 }
 
 .color-green1 {

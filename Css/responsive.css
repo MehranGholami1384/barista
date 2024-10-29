@@ -14,4 +14,12 @@
         width: 200px !important;
         height: 140px !important;
     }
+
+    .coffee-cup-section {
+        height: 100px !important;
+    }
+
+    .coffee-cup-section img {
+        width: 300px !important;
+    }
 }

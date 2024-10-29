@@ -24,6 +24,88 @@ body::-webkit-scrollbar-track {
 
 /* header ------------------------------------------------------------------------------------------------------------*/
 
+.header-section-bg-video {
+    z-index: -3 !important;
+}
+
+.header-section-bg-video-overlay {
+    background-color: var(--color-overlay) !important;
+    z-index: -2;
+}
+
+.coffee-cup-section {
+    background-image: url(../Images/leaves-pattern.png) !important;
+    background-color: var(--color-green1) !important;
+    height: 150px;
+}
+
+.coffee-cup-section img {
+    top: -50px;
+}
+
+.coffee-smoke-animation img {
+    zoom: 1;
+    filter: alpha(opacity=0);
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+    left: 50%;
+    margin-bottom: 300px !important;
+    -webkit-transform: translate(-50%, 0px);
+    -moz-transform: translate(-50%, 0px);
+    -ms-transform: translate(-50%, 0px);
+    -o-transform: translate(-50%, 0px);
+    transform: translate(-50%, 0px);
+    -webkit-animation: lte-smoke-1 12s infinite;
+    -moz-animation: lte-smoke-1 12s infinite;
+    -o-animation: lte-smoke-1 12s infinite;
+    animation: lte-smoke-1 12s infinite;
+}   
+
+.coffee-smoke-animation img:nth-child(1) {
+    animation-delay: 12s !important;
+}
+
+.coffee-smoke-animation img:nth-child(2) {
+    animation-delay: 10s !important;
+}
+
+.coffee-smoke-animation img:nth-child(3) {
+    animation-delay: 8s !important;
+}
+
+.coffee-smoke-animation img:nth-child(4) {
+    animation-delay: 6s !important;
+}
+
+.coffee-smoke-animation img:nth-child(5) {
+    animation-delay: 4s !important;
+}
+
+.coffee-smoke-animation img:nth-child(6) {
+    animation-delay: 2s !important;
+}
+
+@keyframes lte-smoke-1 {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, 650px);
+        -webkit-transform: translate(-50%, 650px);
+        -moz-transform: translate(-50%, 650px);
+        -ms-transform: translate(-50%, 650px);
+        -o-transform: translate(-50%, 650px);
+}
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-50%, 0px);
+    }
+}
+
 .header-social-links-title::after {
     content: '';
     width: 13px;
