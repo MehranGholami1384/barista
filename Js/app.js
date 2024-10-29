@@ -11,6 +11,8 @@ $(document).ready(function () {
         return replaceString;
     };
 
+    // header ---------------------------------------------------------------------------------------------------------
+
     $('.nav-link').hover(function () {
         let icon = $(this).find('.nav-link-caret-down')[0]
         let subMenu = $(this).find('.sub-menu')[0]
@@ -22,6 +24,22 @@ $(document).ready(function () {
         if (subMenu) {
             $(subMenu).toggleClass('invisible opacity-0')
         }
+    })
+
+    $('.open-side-nav-btn').click(function () {
+        $('.side-nav').addClass('active-side-nav z-index-50')
+        $('body').addClass('overflow-hidden')
+    })
+
+    $('.close-side-nav-btn').click(function () {
+        $('.side-nav').removeClass('active-side-nav z-index-50')
+        $('body').removeClass('overflow-hidden')
+    })
+
+    $('.side-nav-sub-menu').slideUp(0)
+
+    $('.side-nav-sub-menu-btn').click(function () {
+        $('.side-nav-sub-menu').slideToggle(200)
     })
 
     function convertAllDigitsToPersian() {

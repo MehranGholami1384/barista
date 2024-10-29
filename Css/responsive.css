@@ -1,7 +1,17 @@
 @media only screen and (max-width: 1199.5px) {}
 
-@media only screen and (max-width: 991.5px) {}
+@media only screen and (max-width: 991.5px) {
+    .header-logo-img {
+        width: 130px !important;
+        height: 90px !important;
+    }
+}
 
 @media only screen and (max-width: 767.5px) {}
 
-@media only screen and (max-width: 575.5px) {}
+@media only screen and (max-width: 575.5px) {
+    .side-nav-logo-img {
+        width: 200px !important;
+        height: 140px !important;
+    }
+}

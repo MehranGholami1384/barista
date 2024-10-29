@@ -57,11 +57,12 @@ body::-webkit-scrollbar-track {
     left: 3px;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.side-nav-link:hover {
     color: var(--color-green1) !important;
 }
 
-.active-nav-link{
+.active-nav-link {
     color: var(--color-green1) !important;
 }
 
@@ -69,7 +70,20 @@ body::-webkit-scrollbar-track {
     width: 200px;
 }
 
-.sub-menu-link:hover {
+.sub-menu-link:hover,
+.side-nav-sub-menu-link:hover {
     background-color: var(--color-green1) !important;
     color: var(--color-white1) !important;
+}
+
+.header-search-btn {
+    left: 50px !important;
+}
+
+.side-nav {
+    right: -100% !important;
+}
+
+.active-side-nav {
+    right: 0% !important;
 }

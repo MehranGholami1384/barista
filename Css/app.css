@@ -24,6 +24,7 @@
 :root {
     --color-brown1: #5C4033;
     --color-gray1: #c1c1c1;
+    --color-gray1: #ccc;
     --color-green1: #4D8B55;
     --color-white1: #ffffff;
     --color-white2: rgba(255, 255, 255, 0.6);
@@ -43,6 +44,10 @@
 
 .bg-gray1 {
     background-color: var(--color-gray1) !important;
+}
+
+.bg-gray2 {
+    background-color: var(--color-gray2) !important;
 }
 
 .bg-green1 {
@@ -91,4 +96,8 @@ a:focus {
     -moz-transform: rotate(180deg) !important;
     -ms-transform: rotate(180deg) !important;
     -o-transform: rotate(180deg) !important;
+}
+
+.z-index-50 {
+    z-index: 50 !important;
 }
