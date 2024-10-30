@@ -1,5 +1,44 @@
 /* global ------------------------------------------------------------------------------------------------------------*/
 
+/* animations --------------------------------------------------------------------------------------------------------*/
+@keyframes lte-smoke-1 {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, 650px);
+        -webkit-transform: translate(-50%, 650px);
+        -moz-transform: translate(-50%, 650px);
+        -ms-transform: translate(-50%, 650px);
+        -o-transform: translate(-50%, 650px);
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-50%, 0px);
+    }
+}
+
+@keyframes rotating-border {
+    0% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+}
+
 body {
     font-family: 'Vazir', sans-serif !important;
     scroll-behavior: smooth !important;
@@ -11,7 +50,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: var(--color-brown1) !important;
+    background-color: var(--color-blue1) !important;
     border-radius: 1px;
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
@@ -20,7 +59,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 body::-webkit-scrollbar-track {
-    background-color: var(--color-gray1) !important;
+    background-color: var(--color-black2) !important;
 }
 
 /* header ------------------------------------------------------------------------------------------------------------*/
@@ -61,7 +100,7 @@ body::-webkit-scrollbar-track {
     -moz-animation: lte-smoke-1 12s infinite;
     -o-animation: lte-smoke-1 12s infinite;
     animation: lte-smoke-1 12s infinite;
-}   
+}
 
 .coffee-smoke-animation img:nth-child(1) {
     animation-delay: 12s !important;
@@ -85,26 +124,6 @@ body::-webkit-scrollbar-track {
 
 .coffee-smoke-animation img:nth-child(6) {
     animation-delay: 2s !important;
-}
-
-@keyframes lte-smoke-1 {
-    0% {
-        opacity: 0;
-        transform: translate(-50%, 650px);
-        -webkit-transform: translate(-50%, 650px);
-        -moz-transform: translate(-50%, 650px);
-        -ms-transform: translate(-50%, 650px);
-        -o-transform: translate(-50%, 650px);
-}
-
-    50% {
-        opacity: 0.5;
-    }
-
-    100% {
-        opacity: 0;
-        transform: translateY(-50%, 0px);
-    }
 }
 
 .header-social-links-title::after {
@@ -176,4 +195,35 @@ body::-webkit-scrollbar-track {
 .about-barista-cafe-links:hover {
     background-color: var(--color-white3) !important;
     color: var(--color-black1) !important;
+}
+
+.coffee-beens-img {
+    border-radius: 100px 20px 100px 20px;
+    -webkit-border-radius: 100px 20px 100px 20px;
+    -moz-border-radius: 100px 20px 100px 20px;
+    -ms-border-radius: 100px 20px 100px 20px;
+    -o-border-radius: 100px 20px 100px 20px;
+}
+
+.rotating-border-container {
+    width: 120px;
+    height: 120px;
+    top: -50px;
+    right: -20px;
+}
+
+.rotating-border-container::after {
+    content: '';
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    border: 2px dashed var(--color-green1);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation: rotating-border 1s linear infinite;
+    -webkit-animation: rotating-border 1s linear infinite;
+    transform: rotate(360deg);
 }

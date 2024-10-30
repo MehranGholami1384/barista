@@ -23,6 +23,7 @@
 
 :root {
     --color-brown1: #5C4033;
+    --color-blue1: #0078bf;
     --color-gray1: #c1c1c1;
     --color-gray2: #ccc;
     --color-green1: #4D8B55;
@@ -30,6 +31,8 @@
     --color-white2: #ffffff99;
     --color-white3: #EFECE5;
     --color-black1: #000000;
+    --color-black2: #242a38;
+    --color-black3: #4A4B6D;
     --color-red1: #BA0709;
     --color-overlay: #000000b3;
 }

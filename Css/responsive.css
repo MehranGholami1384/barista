@@ -1,6 +1,7 @@
 @media only screen and (max-width: 1199.5px) {}
 
 @media only screen and (max-width: 991.5px) {
+    /* header */
     .header-logo-img {
         width: 130px !important;
         height: 90px !important;
@@ -10,6 +11,7 @@
 @media only screen and (max-width: 767.5px) {}
 
 @media only screen and (max-width: 575.5px) {
+    /* header */
     .side-nav-logo-img {
         width: 200px !important;
         height: 140px !important;
@@ -21,5 +23,16 @@
 
     .coffee-cup-section img {
         width: 300px !important;
+    }
+
+    /* main */
+    /* about barista cafe section */
+    .rotating-border-container {
+        top: -50px;
+        right: 0px;
+    }
+
+    .about-barista-cafe-links {
+        width: 100%;
     }
 }

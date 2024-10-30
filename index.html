@@ -98,18 +98,18 @@
                 </ul>
             </nav>
             <!-- Side Navbar (Active in less than 992px) -->
-            <nav class="side-nav position-fixed w-100 h-100 z-index-50 bg-white d-block d-lg-none overflow-y-scroll top-0 transition">
-                <div class="d-flex align-items-start justify-content-between">
+            <nav class="side-nav position-fixed w-100 h-100 z-index-50 bg-white d-flex flex-column align-items-start justify-content-start py-3 gap-5 d-lg-none overflow-y-scroll top-0 transition">
+                <div class="d-flex align-items-start justify-content-between w-100">
                     <a href="./" class="mx-0 mx-sm-3">
                         <img width="220" height="180" class="object-fit-cover side-nav-logo-img" src="./Images/barista-logo-2.webp" alt="Barista Logo">
                     </a>
                     <button class="btn border-0 text-black close-side-nav-btn">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" fill="currentColor" class="bi bi-x close-side-nav-btn mt-4" viewBox="0 0 16 16">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" fill="currentColor" class="bi bi-x close-side-nav-btn mt-2" viewBox="0 0 16 16">
                             <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
                           </svg>
                     </button>
                 </div>
-                <ul class="p-0 text-black px-3">
+                <ul class="p-0 text-black px-3 w-100">
                     <li class="side-nav-link py-3 active-nav-link transition"><a href="#">صفحه اصلی</a></li>
                     <li class="side-nav-link side-nav-sub-menu-btn py-3 border-top border-secondary border-opacity-25 transition">
                         <a href="#">
@@ -132,7 +132,7 @@
                     <li class="side-nav-link py-3 border-top border-secondary border-opacity-25 transition"><a href="#">درباره ما</a></li>
                     <li class="side-nav-link py-3 border-top border-secondary border-opacity-25 transition"><a href="#">تماس با ما</a></li>
                 </ul>
-                <div class="position-relative px-3 mb-3">
+                <div class="position-relative px-3 mb-3 w-100">
                     <input type="search" class="form-control shadow-none rounded-pill border border-secondary border-opacity-75 py-3" placeholder="جستجو . . .">
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" fill="currentColor" class="bi bi-search text-secondary position-absolute top-50 header-search-btn translate-middle" viewBox="0 0 16 16">
                         <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
@@ -160,8 +160,8 @@
     <!-- Main -->
      <main>
         <!-- About Barista Cafe Section -->
-         <section class="d-flex flex-column flex-md-row align-items-center justify-content-between flex-wrap mt-5">
-            <div class="col-12 col-md-6 d-flex flex-column align-items-start justify-content-center gap-3">
+         <section class="d-flex flex-column flex-lg-row align-items-center justify-content-between flex-wrap mt-5">
+            <div class="col-12 col-lg-6 col-sm-10 d-flex flex-column align-items-start justify-content-center gap-3 pe-3 pe-lg-5 ps-3">
                 <h2 class="color-green1 fw-bold font-lalezar m-0">درباره کافه باریستا</h2>
                 <h4 class="fw-bold m-0">فروشگاه آنلاین قهوه و دستگاه قهوه</h4>
                 <p class="m-0">
@@ -181,9 +181,18 @@
                     </div>
                     <span class="fw-bold">09123456789</span>
                 </div>
-                <div class="color-white1 d-flex align-items-center justify-content-end gap-3">
+                <div class="w-100 color-white1 d-flex flex-column flex-sm-row align-items-center justify-content-start gap-3 mb-5 mb-lg-0">
                     <a href="#" class="btn border-0 rounded-pill bg-red1 px-5 py-3 about-barista-cafe-links transition">تماس با ما</a>
                     <a href="#" class="btn border-0 rounded-pill bg-black px-5 py-3 about-barista-cafe-links transition">مشاهده فروشگاه</a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 px-3 mt-5 mt-lg-0 d-flex align-items-center justify-content-center">
+                <div class="position-relative col-12 col-xl-9 col-lg-10 col-md-7 col-sm-9">
+                    <img class="object-fit-cover coffee-beens-img w-100" src="./Images/coffee-been.jpg" alt="Coffee Beens">
+                    <div class="rotating-border-container bg-white rounded-circle position-absolute d-flex flex-column align-items-center justify-content-center gap-2 shadow-lg">
+                        <h5 class="fw-bold">از سال</h5>
+                        <h3 class="color-green1 fw-bold">1402</h3>
+                    </div>
                 </div>
             </div>
          </section>
