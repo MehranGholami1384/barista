@@ -24,10 +24,13 @@
 :root {
     --color-brown1: #5C4033;
     --color-gray1: #c1c1c1;
-    --color-gray1: #ccc;
+    --color-gray2: #ccc;
     --color-green1: #4D8B55;
     --color-white1: #ffffff;
     --color-white2: #ffffff99;
+    --color-white3: #EFECE5;
+    --color-black1: #000000;
+    --color-red1: #BA0709;
     --color-overlay: #000000b3;
 }
 
@@ -53,6 +56,10 @@
 
 .bg-green1 {
     background-color: var(--color-green1) !important;
+}
+
+.bg-red1 {
+    background-color: var(--color-red1) !important;
 }
 
 a:link,

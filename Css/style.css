@@ -3,6 +3,7 @@
 body {
     font-family: 'Vazir', sans-serif !important;
     scroll-behavior: smooth !important;
+    background-color: var(--color-white1) !important;
 }
 
 body::-webkit-scrollbar {
@@ -168,4 +169,11 @@ body::-webkit-scrollbar-track {
 
 .active-side-nav {
     right: 0% !important;
+}
+
+/* about barista cafe section */
+
+.about-barista-cafe-links:hover {
+    background-color: var(--color-white3) !important;
+    color: var(--color-black1) !important;
 }
