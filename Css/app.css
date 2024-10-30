@@ -34,6 +34,7 @@
     --color-black2: #242a38;
     --color-black3: #4A4B6D;
     --color-red1: #BA0709;
+    --color-red2: #C50200;
     --color-overlay: #000000b3;
 }
 
@@ -65,6 +66,10 @@
     background-color: var(--color-red1) !important;
 }
 
+.bg-red2 {
+    background-color: var(--color-red2) !important;
+}
+
 a:link,
 a:visited,
 a:active,
@@ -75,6 +80,18 @@ a:focus {
 
 .transition {
     transition: all ease 0.3s !important;
+    -webkit-transition: all ease 0.3s !important;
+    -moz-transition: all ease 0.3s !important;
+    -ms-transition: all ease 0.3s !important;
+    -o-transition: all ease 0.3s !important;
+}
+
+.transition-2 {
+    transition: all ease 0.3s !important;
+    -webkit-transition: all ease 0.3s !important;
+    -moz-transition: all ease 0.3s !important;
+    -ms-transition: all ease 0.3s !important;
+    -o-transition: all ease 0.3s !important;
 }
 
 .resize-none {

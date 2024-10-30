@@ -190,7 +190,8 @@ body::-webkit-scrollbar-track {
     right: 0% !important;
 }
 
-/* about barista cafe section */
+/* main ----------------------------------------------------------------------------------------------------------------- */
+/* about barista cafe section ------------------------------------------------------------------------------------------- */
 
 .about-barista-cafe-links:hover {
     background-color: var(--color-white3) !important;
@@ -226,4 +227,31 @@ body::-webkit-scrollbar-track {
     animation: rotating-border 1s linear infinite;
     -webkit-animation: rotating-border 1s linear infinite;
     transform: rotate(360deg);
+}
+
+/* Product Category Section ------------------------------------------------------------------------------------------- */
+
+.product-category-section {
+    background-image: url(../Images/product-category-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product-category-number-container {
+    width: 52px;
+    height: 50px;
+    right: -50px;
+}
+
+.product-category-ul li {
+    list-style-type: initial !important;
+    margin-bottom: 6px;
+}
+
+.product-category-img:hover {
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
 }
