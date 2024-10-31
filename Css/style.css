@@ -293,3 +293,30 @@ body::-webkit-scrollbar-track {
 .video-link-overlay {
     z-index: 0;
 }
+
+.best-selling-products-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: stretch !important;
+}
+
+.add-to-cart-btn {
+    width: 150px;
+    height: 40px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: var(--color-black1) !important;
+    color: var(--color-white1) !important;
+}
+
+.see-all-products-link {
+    width: 300px;
+    height: 55px;
+}
+
+.see-all-products-link:hover {
+    background-color: var(--color-white3) !important;
+    color: var(--color-black1) !important;;
+}

@@ -7,6 +7,16 @@
         width: 130px !important;
         height: 90px !important;
     }
+
+    /* best selling products section */
+    .best-selling-products-grid {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+
+    .best-selling-products-img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 767.5px) {
@@ -18,6 +28,11 @@
     /* video link section */
     .video-link-container {
         background-position: center;
+    }
+
+    /* best selling products section */
+    .best-selling-products-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
     }
 }
 
@@ -55,5 +70,15 @@
 
     .coffee-brands-grid {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* best selling products section */
+    .add-to-cart-btn {
+        width: 130px;
+        font-size: 12px;
+    }
+
+    .see-all-products-link {
+        width: 270px;
     }
 }

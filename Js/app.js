@@ -42,6 +42,13 @@ $(document).ready(function () {
         $('.side-nav-sub-menu').slideToggle(200)
     })
 
+    function formatPriceWithCommas() {
+        $('.best-selling-products-price').each(function () {
+            let price = parseInt($(this).text());
+            $(this).text(price.toLocaleString('en-US'));
+        });
+    }
+
     function convertAllDigitsToPersian() {
         $("*:not(script):not(style):not(.product-category-number)").each(function() {
             if ($(this).children().length === 0) {
@@ -54,5 +61,6 @@ $(document).ready(function () {
         });
     }
 
+    formatPriceWithCommas()
     convertAllDigitsToPersian()
 });
