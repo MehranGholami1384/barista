@@ -62,13 +62,19 @@ body::-webkit-scrollbar-track {
     background-color: var(--color-black2) !important;
 }
 
+.bg-no-repeant-size-cover {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* header ------------------------------------------------------------------------------------------------------------*/
 
 .header-section-bg-video {
     z-index: -3 !important;
 }
 
-.header-section-bg-video-overlay {
+.header-section-bg-video-overlay,
+.video-link-overlay {
     background-color: var(--color-overlay) !important;
     z-index: -2;
 }
@@ -233,8 +239,6 @@ body::-webkit-scrollbar-track {
 
 .product-category-section {
     background-image: url(../Images/product-category-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .product-category-number-container {
@@ -274,3 +278,18 @@ body::-webkit-scrollbar-track {
 
 /* Benefits of Coffee Section ----------------------------------------------------------------------------------------- */
 
+/* Video Link Section ----------------------------------------------------------------------------------------- */
+
+.video-link-container {
+    background-image: url(../Images/video-link-bg.webp);
+    height: 400px;
+    background-attachment: fixed;
+}
+
+.play-video-link:hover {
+    color: var(--color-green1) !important;
+}
+
+.video-link-overlay {
+    z-index: 0;
+}
