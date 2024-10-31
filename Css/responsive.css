@@ -17,6 +17,11 @@
         width: 100%;
         height: auto;
     }
+
+    /* News & Blogs Section */
+    .news-blogs-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media only screen and (max-width: 767.5px) {
@@ -85,5 +90,10 @@
     /* approval logos section */
     .approval-logos-img {
         width: 270px;
+    }
+
+    /* News & Blogs Section */
+    .news-blogs-grid {
+        grid-template-columns: repeat(1, 1fr);
     }
 }

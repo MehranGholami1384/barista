@@ -26,13 +26,17 @@
     --color-blue1: #0078bf;
     --color-gray1: #c1c1c1;
     --color-gray2: #ccc;
+    --color-gray3: #DDDDDD;
+    --color-gray4: #adadad;
     --color-green1: #4D8B55;
     --color-white1: #ffffff;
     --color-white2: #ffffff99;
     --color-white3: #EFECE5;
+    --color-white4: #FAFAFA;
     --color-black1: #000000;
     --color-black2: #242a38;
     --color-black3: #4A4B6D;
+    --color-black4: #363636;
     --color-red1: #BA0709;
     --color-red2: #C50200;
     --color-overlay: #000000b3;
@@ -50,8 +54,20 @@
     color: var(--color-white1) !important;
 }
 
+.color-black4 {
+    color: var(--color-black4) !important;
+}
+
+.color-gray4 {
+    color: var(--color-gray4) !important;
+}
+
 .bg-brown1 {
     background-color: var(--color-brown1) !important;
+}
+
+.bg-white4 {
+    background-color: var(--color-white4) !important;
 }
 
 .bg-gray1 {
@@ -116,6 +132,10 @@ a:focus {
 
 .fs-13px {
     font-size: 13px !important;
+}
+
+.fs-14px {
+    font-size: 14px !important;
 }
 
 .fs-15px {

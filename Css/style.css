@@ -67,6 +67,13 @@ body::-webkit-scrollbar-track {
     background-size: cover;
 }
 
+.line-clamp-3 {
+    -webkit-line-clamp: 3 !important;
+    overflow: hidden !important;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical !important;
+}
+
 /* header ------------------------------------------------------------------------------------------------------------*/
 
 .header-section-bg-video {
@@ -318,7 +325,8 @@ body::-webkit-scrollbar-track {
 
 .see-all-products-link:hover {
     background-color: var(--color-white3) !important;
-    color: var(--color-black1) !important;;
+    color: var(--color-black1) !important;
+    ;
 }
 
 /* Approval Logos Section */
@@ -330,4 +338,42 @@ body::-webkit-scrollbar-track {
 
 .approval-logos-overlay {
     background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* News & Blogs Section */
+
+.news-blogs-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.news-blogs-grid>div {
+    border: 1px solid var(--color-gray3);
+}
+
+.blog-topic-badge {
+    top: 10px;
+    right: 10px;
+}
+
+.news-blogs-img-link::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0 !important;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, .35), transparent 75%);
+    inset: 0 !important;
+    z-index: 10 !important;
+    transition: all ease 0.3s !important;
+    -webkit-transition: all ease 0.3s !important;
+    -moz-transition: all ease 0.3s !important;
+    -ms-transition: all ease 0.3s !important;
+    -o-transition: all ease 0.3s !important;
+}
+
+.news-blogs-grid>div:hover .news-blogs-img-link::after {
+    opacity: 0;
 }

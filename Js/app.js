@@ -50,13 +50,13 @@ $(document).ready(function () {
     }
 
     function convertAllDigitsToPersian() {
-        $("*:not(script):not(style):not(.product-category-number)").each(function() {
+        $("*:not(script):not(style):not(.product-category-number)").each(function () {
             if ($(this).children().length === 0) {
                 $(this).text($(this).text().toPersianDigit());
             }
         });
 
-        $("input").each(function() {
+        $("input").each(function () {
             $(this).val($(this).val().toPersianDigit());
         });
     }
