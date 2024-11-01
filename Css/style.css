@@ -391,9 +391,10 @@ body::-webkit-scrollbar-track {
 }
 
 .footer-section-grid {
-    display: grid;  
+    display: grid;
     grid-template-columns: 1fr repeat(2, max-content) 1fr;
-    gap: 10px 50px;
+    grid-template-rows: auto;
+    gap: 50px;
 }
 
 .quick-access::after {
