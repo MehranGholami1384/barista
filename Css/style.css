@@ -377,3 +377,21 @@ body::-webkit-scrollbar-track {
 .news-blogs-grid>div:hover .news-blogs-img-link::after {
     opacity: 0;
 }
+
+/* Footer */
+
+.footer {
+    background-image: url(../Images/video-link-bg.webp);
+    background-position: center;
+}
+
+.footer-overlay {
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 0 !important;
+}
+
+.footer-section-grid {
+    display: grid;  
+    grid-template-columns: 1.5fr repeat(3, 1fr);
+    gap: 20px 10px;
+}
