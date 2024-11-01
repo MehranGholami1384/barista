@@ -1,5 +1,13 @@
 @media only screen and (max-width: 1199.5px) {}
 
+@media only screen and (max-width: 1050px) {
+    /* best selling products section */
+    .best-selling-products-img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
 @media only screen and (max-width: 991.5px) {
 
     /* header */
