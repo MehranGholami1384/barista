@@ -393,5 +393,19 @@ body::-webkit-scrollbar-track {
 .footer-section-grid {
     display: grid;  
     grid-template-columns: 1.5fr repeat(3, 1fr);
-    gap: 20px 10px;
+    gap: 10px 50px;
+}
+
+.quick-access::after {
+    content: '';
+    position: absolute;
+    top: 35px;
+    right: 0;
+    width: 70%;
+    height: 2px;
+    background-color: var(--color-green1);
+}
+
+.quick-access-links:hover {
+    color: var(--color-green1) !important;
 }
