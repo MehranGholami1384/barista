@@ -22,6 +22,11 @@
     .news-blogs-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* footer */
+    .footer-section-grid {
+        grid-template-columns: 1fr repeat(1, max-content) 1fr;
+    }
 }
 
 @media only screen and (max-width: 767.5px) {
@@ -38,6 +43,17 @@
     /* best selling products section */
     .best-selling-products-grid {
         grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    /* footer */
+    .footer-section-grid {
+        grid-template-columns: 1fr repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .about-us-footer,
+    .contact-information-footer {
+        grid-column: 1 / -1;
     }
 }
 
