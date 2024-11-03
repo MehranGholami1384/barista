@@ -380,7 +380,8 @@ body::-webkit-scrollbar-track {
 
 /* Footer */
 
-.footer {
+.footer,
+.header-404-section {
     background-image: url(../Images/video-link-bg.webp);
     background-position: center;
 }
