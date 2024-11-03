@@ -15,7 +15,21 @@
     <title>درباره ما - باریستا</title>
 </head>
 
-<body>
+<body class="position-relative">
+
+    <!-- Cart off-canvas -->
+    <div class="cart-off-canvas-overlay bg-black opacity-50 h-100 w-100 position-absolute d-none"></div>
+     <section class="cart-off-canvas position-fixed h-100 top-0 bg-white z-index-50 d-none d-lg-flex flex-column p-3 gap-3 transition">
+        <button class="btn border-0 text-black close-cart-off-canvas-btn p-0 w-100 d-flex align-items-center justify-content-end">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" fill="currentColor"
+                class="bi bi-x close-side-nav-btn mt-2" viewBox="0 0 16 16">
+                <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+            </svg>
+        </button>
+        <h6 class="fw-bold">هیچ محصولی در سبد خرید نیست.</h6>
+     </section>
+     <!-- Cart off-canvas -->
     
     <!-- Header Section -->
     <section class="default-header-section position-relative">

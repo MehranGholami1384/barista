@@ -42,6 +42,16 @@ $(document).ready(function () {
         $('.side-nav-sub-menu').slideToggle(200)
     })
 
+    $('.cart-btn').click(function () {
+        $('.cart-off-canvas-overlay').removeClass('d-none').addClass('z-index-50')
+        $('.cart-off-canvas').addClass('active z-index-50')
+    })
+
+    $('.cart-off-canvas-overlay, .close-cart-off-canvas-btn').click(function () {
+        $('.cart-off-canvas-overlay').addClass('d-none').removeClass('z-index-50')
+        $('.cart-off-canvas').removeClass('active z-index-50')
+    })
+
     function formatPriceWithCommas() {
         $('.best-selling-products-price').each(function () {
             let price = parseInt($(this).text());
