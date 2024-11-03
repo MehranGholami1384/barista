@@ -76,6 +76,16 @@ body::-webkit-scrollbar-track {
 
 /* header ------------------------------------------------------------------------------------------------------------*/
 
+.default-header-section {
+    background-image: url(../Images/default-header-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.default-header-section-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 .header-section-bg-video {
     z-index: -3 !important;
 }
@@ -410,4 +420,10 @@ body::-webkit-scrollbar-track {
 
 .quick-access-links:hover {
     color: var(--color-green1) !important;
+}
+
+/* about us page */
+
+.default-header-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
 }
