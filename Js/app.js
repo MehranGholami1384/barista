@@ -29,11 +29,13 @@ $(document).ready(function () {
     $('.open-side-nav-btn').click(function () {
         $('.side-nav').addClass('active-side-nav z-index-50')
         $('body').addClass('overflow-hidden')
+        $('.blog-topic-badge').removeClass('z-1')
     })
-
+    
     $('.close-side-nav-btn').click(function () {
         $('.side-nav').removeClass('active-side-nav z-index-50')
         $('body').removeClass('overflow-hidden')
+        $('.blog-topic-badge').addClass('z-1')
     })
 
     $('.side-nav-sub-menu').slideUp(0)
