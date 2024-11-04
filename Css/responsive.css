@@ -6,6 +6,12 @@
         width: 150px;
         height: 150px;
     }
+
+    /* shop page */
+    .products-filter-container {
+        width: 890px !important;
+        padding: 0 10px;
+    }
 }
 
 @media only screen and (max-width: 991.5px) {
@@ -34,6 +40,12 @@
     /* footer */
     .footer-section-grid {
         grid-template-columns: 1fr repeat(1, max-content) 1fr;
+    }
+
+    /* shop page */
+    .products-filter-container {
+        width: 100% !important;
+        padding: 0 15px;
     }
 }
 

@@ -37,6 +37,8 @@
     --color-black2: #242a38;
     --color-black3: #4A4B6D;
     --color-black4: #363636;
+    --color-black5: #444444;
+    --color-yellow1: #f59e0b;
     --color-red1: #BA0709;
     --color-red2: #C50200;
     --color-overlay: #000000b3;
@@ -58,8 +60,20 @@
     color: var(--color-black4) !important;
 }
 
+.color-black5 {
+    color: var(--color-black5) !important;
+}
+
 .color-gray4 {
     color: var(--color-gray4) !important;
+}
+
+.color-gray1 {
+    color: var(--color-gray1) !important;
+}
+
+.color-yellow1 {
+    color: var(--color-yellow1) !important;
 }
 
 .bg-brown1 {

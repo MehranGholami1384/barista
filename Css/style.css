@@ -434,3 +434,23 @@ body::-webkit-scrollbar-track {
 .default-header-overlay {
     background-color: rgba(0, 0, 0, 0.4);
 }
+
+/* shop page */
+
+.products-filter-container {
+    width: 1040px;
+}
+
+.custom-select {
+    appearance: none;
+    background: url('../Images/chevron-down.svg') no-repeat left;
+    background-size: 13px;
+    background-position-x: 5px;
+}
+
+.product-score-star::after {
+    content: "SSSSS";
+    top: 0;
+    position: absolute;
+    right: 0;
+}
