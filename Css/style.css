@@ -224,6 +224,15 @@ body::-webkit-scrollbar-track {
     left: 0 !important;
 }
 
+.see-cart-link {
+    height: 45px;
+}
+
+.see-cart-link:hover {
+    background: var(--color-white3) !important;
+    color: var(--color-black1) !important;
+}
+
 /* main ----------------------------------------------------------------------------------------------------------------- */
 /* about barista cafe section ------------------------------------------------------------------------------------------- */
 
