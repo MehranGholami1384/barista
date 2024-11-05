@@ -196,7 +196,9 @@ body::-webkit-scrollbar-track {
 }
 
 .sub-menu-link:hover,
-.side-nav-sub-menu-link:hover {
+.side-nav-sub-menu-link:hover,
+.sub-menu-link.active,
+.side-nav-sub-menu-link.active{
     background-color: var(--color-green1) !important;
     color: var(--color-white1) !important;
 }

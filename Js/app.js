@@ -1,4 +1,6 @@
 $(document).ready(function () {
+    // global ---------------------------------------------------------------------------------------------------------
+
     String.prototype.toPersianDigit = function () {
         var find = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
         var replace = ["۰", "۱", "۲", "۳", "۴", "۵", "۶", "۷", "۸", "۹"];
@@ -10,6 +12,9 @@ $(document).ready(function () {
         }
         return replaceString;
     };
+
+    const searchParams = new URLSearchParams(window.location.search)
+    const searchProductCategoryParam = searchParams.get('product-category')
 
     // header ---------------------------------------------------------------------------------------------------------
 
@@ -31,7 +36,7 @@ $(document).ready(function () {
         $('body').addClass('overflow-hidden')
         $('.blog-topic-badge').removeClass('z-1')
     })
-    
+
     $('.close-side-nav-btn').click(function () {
         $('.side-nav').removeClass('active-side-nav z-index-50')
         $('body').removeClass('overflow-hidden')
@@ -53,6 +58,19 @@ $(document).ready(function () {
         $('.cart-off-canvas-overlay').addClass('d-none').removeClass('z-index-50')
         $('.cart-off-canvas').removeClass('active z-index-50')
     })
+
+    // shop page ---------------------------------------------------------------------------------------------------------
+    // product-category --------------------------------------------------------------------------------------------------
+
+    if (searchProductCategoryParam === 'robusta') {
+        $('.product-category-head-title-section').removeClass('d-none')
+        $('title').html('قهوه روبوستا - باریستا')
+        $('.shop-nav-link').removeClass('active-nav-link')
+        $('.demo-pages-link').addClass('active-nav-link')
+        $('.product-category-link').addClass('active')
+    } else {
+        $('.shop-head-title-section').removeClass('d-none')
+    }
 
     function formatPriceWithCommas() {
         $('.best-selling-products-price').each(function () {
