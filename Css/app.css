@@ -24,10 +24,15 @@
 :root {
     --color-brown1: #5C4033;
     --color-blue1: #0078bf;
+    --color-blue2: #1e85be;
     --color-gray1: #c1c1c1;
     --color-gray2: #ccc;
     --color-gray3: #DDDDDD;
     --color-gray4: #adadad;
+    --color-gray5: #f6f5f8;
+    --color-gray6: #515151;
+    --color-gray7: #e9e6ed;
+    --color-gray8: #dcd7e3;
     --color-green1: #4D8B55;
     --color-white1: #ffffff;
     --color-white2: #ffffff99;
@@ -64,16 +69,24 @@
     color: var(--color-black5) !important;
 }
 
-.color-gray4 {
-    color: var(--color-gray4) !important;
-}
-
 .color-gray1 {
     color: var(--color-gray1) !important;
 }
 
+.color-gray4 {
+    color: var(--color-gray4) !important;
+}
+
+.color-gray6 {
+    color: var(--color-gray6) !important;
+}
+
 .color-yellow1 {
     color: var(--color-yellow1) !important;
+}
+
+.color-blue2 {
+    color: var(--color-blue2) !important;
 }
 
 .bg-brown1 {
@@ -90,6 +103,14 @@
 
 .bg-gray2 {
     background-color: var(--color-gray2) !important;
+}
+
+.bg-gray5 {
+    background-color: var(--color-gray5) !important;
+}
+
+.bg-gray7 {
+    background-color: var(--color-gray7) !important;
 }
 
 .bg-green1 {

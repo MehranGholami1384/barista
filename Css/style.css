@@ -466,3 +466,13 @@ body::-webkit-scrollbar-track {
     position: absolute;
     right: 0;
 }
+
+/* cart page */
+
+.empty-cart-message {
+    border-top: 3px solid var(--color-blue2) !important;
+}
+
+.back-to-shop-link:hover {
+    background-color: var(--color-gray8) !important;
+}
