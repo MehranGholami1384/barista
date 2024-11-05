@@ -439,7 +439,8 @@ body::-webkit-scrollbar-track {
 
 /* shop page */
 
-.products-filter-container {
+.products-filter-container,
+.product-category-page-text {
     width: 1040px;
 }
 

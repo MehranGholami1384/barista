@@ -64,6 +64,7 @@ $(document).ready(function () {
 
     if (searchProductCategoryParam === 'robusta') {
         $('.product-category-head-title-section').removeClass('d-none')
+        $('.product-category-page-text').removeClass('d-none')
         $('title').html('قهوه روبوستا - باریستا')
         $('.shop-nav-link').removeClass('active-nav-link')
         $('.demo-pages-link').addClass('active-nav-link')

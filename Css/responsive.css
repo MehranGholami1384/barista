@@ -8,7 +8,8 @@
     }
 
     /* shop page */
-    .products-filter-container {
+    .products-filter-container,
+    .product-category-page-text {
         width: 890px !important;
         padding: 0 10px;
     }
@@ -43,7 +44,8 @@
     }
 
     /* shop page */
-    .products-filter-container {
+    .products-filter-container,
+    .product-category-page-text {
         width: 100% !important;
         padding: 0 15px;
     }
