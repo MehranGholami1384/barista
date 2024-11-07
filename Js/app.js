@@ -16,6 +16,10 @@ $(document).ready(function () {
     const searchParams = new URLSearchParams(window.location.search)
     const searchProductCategoryParam = searchParams.get('product-category')
 
+    function openOverlay() {
+        $('.cart-off-canvas-overlay').removeClass('d-none').addClass('z-index-50')
+    }
+
     // index page -----------------------------------------------------------------------------------------------------
     // header ---------------------------------------------------------------------------------------------------------
 
@@ -51,13 +55,14 @@ $(document).ready(function () {
     })
 
     $('.cart-btn').click(function () {
-        $('.cart-off-canvas-overlay').removeClass('d-none').addClass('z-index-50')
+        openOverlay()
         $('.cart-off-canvas').addClass('active z-index-50')
     })
 
     $('.cart-off-canvas-overlay, .close-cart-off-canvas-btn').click(function () {
         $('.cart-off-canvas-overlay').addClass('d-none').removeClass('z-index-50')
         $('.cart-off-canvas').removeClass('active z-index-50')
+        $('.coffee-beans-preparation-steps-container').removeClass('active z-index-50')
     })
 
     // main --------------------------------------------------------------------------------------------------------------
@@ -67,7 +72,8 @@ $(document).ready(function () {
     })
 
     $('.play-video-btn').click(function () {
-        $('.cart-off-canvas-overlay').removeClass('d-none').addClass('z-index-50')
+        openOverlay()
+        $('.coffee-beans-preparation-steps-container').addClass('active z-index-50')
     })
 
     // shop page ---------------------------------------------------------------------------------------------------------

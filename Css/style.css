@@ -77,7 +77,7 @@ body::-webkit-scrollbar-track {
 }
 
 video::-internal-media-controls-download-button {
-    display:none !important;
+    display: none !important;
 }
 
 /* header ------------------------------------------------------------------------------------------------------------*/
@@ -204,7 +204,7 @@ video::-internal-media-controls-download-button {
 .sub-menu-link:hover,
 .side-nav-sub-menu-link:hover,
 .sub-menu-link.active,
-.side-nav-sub-menu-link.active{
+.side-nav-sub-menu-link.active {
     background-color: var(--color-green1) !important;
     color: var(--color-white1) !important;
 }
@@ -329,7 +329,7 @@ video::-internal-media-controls-download-button {
     background-attachment: fixed;
 }
 
-.play-video-link:hover {
+.play-video-btn:hover {
     color: var(--color-green1) !important;
 }
 
@@ -368,6 +368,11 @@ video::-internal-media-controls-download-button {
 .coffee-beans-preparation-steps-container {
     width: 650px;
     height: 400px;
+    top: -100%;
+}
+
+.coffee-beans-preparation-steps-container.active {
+    top: 50% !important;
 }
 
 /* Approval Logos Section */
