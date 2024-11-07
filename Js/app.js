@@ -16,6 +16,7 @@ $(document).ready(function () {
     const searchParams = new URLSearchParams(window.location.search)
     const searchProductCategoryParam = searchParams.get('product-category')
 
+    // index page -----------------------------------------------------------------------------------------------------
     // header ---------------------------------------------------------------------------------------------------------
 
     $('.nav-link').hover(function () {
@@ -59,6 +60,16 @@ $(document).ready(function () {
         $('.cart-off-canvas').removeClass('active z-index-50')
     })
 
+    // main --------------------------------------------------------------------------------------------------------------
+
+    $('.coffee-beans-preparation-steps-video').on('contextmenu', function (event) {
+        event.preventDefault()
+    })
+
+    $('.play-video-btn').click(function () {
+        $('.cart-off-canvas-overlay').removeClass('d-none').addClass('z-index-50')
+    })
+
     // shop page ---------------------------------------------------------------------------------------------------------
     // product-category --------------------------------------------------------------------------------------------------
 
@@ -72,6 +83,8 @@ $(document).ready(function () {
     } else {
         $('.shop-head-title-section').removeClass('d-none')
     }
+
+    // global ---------------------------------------------------------------------------------------------------------
 
     function formatPriceWithCommas() {
         $('.best-selling-products-price').each(function () {

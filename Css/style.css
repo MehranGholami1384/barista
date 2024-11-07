@@ -39,6 +39,8 @@
     }
 }
 
+/* styles */
+
 body {
     font-family: 'Vazir', sans-serif !important;
     scroll-behavior: smooth !important;
@@ -72,6 +74,10 @@ body::-webkit-scrollbar-track {
     overflow: hidden !important;
     display: -webkit-box !important;
     -webkit-box-orient: vertical !important;
+}
+
+video::-internal-media-controls-download-button {
+    display:none !important;
 }
 
 /* header ------------------------------------------------------------------------------------------------------------*/
@@ -357,6 +363,11 @@ body::-webkit-scrollbar-track {
     background-color: var(--color-white3) !important;
     color: var(--color-black1) !important;
     ;
+}
+
+.coffee-beans-preparation-steps-container {
+    width: 650px;
+    height: 400px;
 }
 
 /* Approval Logos Section */

@@ -1,6 +1,7 @@
 @media only screen and (max-width: 1199.5px) {}
 
 @media only screen and (max-width: 1050px) {
+
     /* best selling products section */
     .best-selling-products-img {
         width: 150px;
@@ -77,6 +78,13 @@
     .contact-information-footer {
         grid-column: 1 / -1;
     }
+
+    /* video link section */
+
+    .coffee-beans-preparation-steps-container {
+        width: 550px;
+        height: 350px;
+    }
 }
 
 @media only screen and (max-width: 575.5px) {
@@ -138,5 +146,12 @@
     /* 404 page */
     .head-title-404-section {
         padding-bottom: 250px !important;
+    }
+
+    /* video link section */
+
+    .coffee-beans-preparation-steps-container {
+        width: calc(100% - 20px);
+        /* height: 70%; */
     }
 }
