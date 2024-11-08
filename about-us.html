@@ -36,11 +36,12 @@
         </a>
     </section>
     <!-- Cart off-canvas -->
-    
+
     <!-- Header Section -->
     <section class="default-header-section position-relative">
         <!-- Header overlay -->
-        <div class="default-header-section-overlay object-fit-cover position-absolute top-0 end-0 w-100 h-100 z-0"></div>
+        <div class="default-header-section-overlay object-fit-cover position-absolute top-0 end-0 w-100 h-100 z-0">
+        </div>
         <!-- Header -->
         <header class="color-white1 d-flex flex-row flex-lg-column justify-content-between z-1 position-relative">
             <!-- Main Header (Active in More than 992px) -->
@@ -86,7 +87,7 @@
                         </svg>
                         <span class="cart-count position-absolute bg-green1 rounded-circle">0</span>
                     </button>
-                    <a href="#" class="fs-13px">حساب کاربری من</a>
+                    <a href="./auth.html" class="fs-13px">حساب کاربری من</a>
                 </div>
             </section>
             <nav class="mt-3 fs-15px font-vazir-light d-none d-lg-block">
@@ -105,12 +106,14 @@
                         </a>
                         <div class="position-absolute top-100 pt-3 sub-menu invisible opacity-0 transition">
                             <ul class="bg-white shadow-lg text-black p-0 rounded overflow-hidden">
-                                <li class="sub-menu-link transition"><a class="w-100 d-inline-block p-3" href="./404.html">صفحه
+                                <li class="sub-menu-link transition"><a class="w-100 d-inline-block p-3"
+                                        href="./404.html">صفحه
                                         404</a></li>
                                 <li class="sub-menu-link transition border-top border-secondary border-opacity-25"><a
                                         class="w-100 d-inline-block p-3" href="#">نمایش محتوای نوشته</a></li>
                                 <li class="sub-menu-link transition border-top border-secondary border-opacity-25"><a
-                                        class="w-100 d-inline-block p-3" href="./shop.html?product-category=robusta">دسته بندی محصول</a></li>
+                                        class="w-100 d-inline-block p-3"
+                                        href="./shop.html?product-category=robusta">دسته بندی محصول</a></li>
                                 <li class="sub-menu-link transition border-top border-secondary border-opacity-25"><a
                                         class="w-100 d-inline-block p-3" href="#">توضیحات محصول</a></li>
                             </ul>
@@ -158,7 +161,8 @@
                             <li class="side-nav-sub-menu-link transition border-top border-secondary border-opacity-25">
                                 <a class="w-100 d-inline-block p-3" href="#">نمایش محتوای نوشته</a></li>
                             <li class="side-nav-sub-menu-link transition border-top border-secondary border-opacity-25">
-                                <a class="w-100 d-inline-block p-3" href="./shop.html?product-category=robusta">دسته بندی محصول</a></li>
+                                <a class="w-100 d-inline-block p-3" href="./shop.html?product-category=robusta">دسته
+                                    بندی محصول</a></li>
                             <li class="side-nav-sub-menu-link transition border-top border-secondary border-opacity-25">
                                 <a class="w-100 d-inline-block p-3" href="#">توضیحات محصول</a></li>
                         </ul>
@@ -167,10 +171,13 @@
                             href="./shop.html">فروشگاه</a></li>
                     <li class="side-nav-link py-3 border-top border-secondary border-opacity-25 transition"><a
                             href="./blogs.html">اخبار و مقالات</a></li>
-                    <li class="side-nav-link py-3 active-nav-link border-top border-secondary border-opacity-25 transition"><a
-                            href="./about-us.html">درباره ما</a></li>
+                    <li
+                        class="side-nav-link py-3 active-nav-link border-top border-secondary border-opacity-25 transition">
+                        <a href="./about-us.html">درباره ما</a></li>
                     <li class="side-nav-link py-3 border-top border-secondary border-opacity-25 transition"><a
                             href="#">تماس با ما</a></li>
+                    <li class="side-nav-link py-3 border-top border-secondary border-opacity-25 transition"><a
+                            href="./auth.html">حساب کاربری من</a></li>
                 </ul>
                 <div class="position-relative px-3 mb-3 w-100">
                     <input type="search"
@@ -196,13 +203,16 @@
         <section
             class="mt-4 pb-4 text-white d-flex align-items-center justify-content-center flex-column gap-3 z-0 position-relative">
             <h4 class="fw-bold text-center pe-0 pe-lg-5 me-0 me-lg-3">درباره ما</h4>
-                <ul class="d-flex align-items-center justify-content-center gap-2 ps-0 pe-0 pe-lg-5">
-                    <li class="nav-link transition fs-14px"><a href="./">صفحه اصلی</a></li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="10" fill="none" stroke="currentColor" stroke-width="1.5" class="bi bi-chevron-left" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"></path>
-                    </svg>
-                    <li class="nav-link transition fs-14px"><a href="./about-us.html">درباره ما</a></li>
-                </ul>
+            <ul class="d-flex align-items-center justify-content-center gap-2 ps-0 pe-0 pe-lg-5">
+                <li class="nav-link transition fs-14px"><a href="./">صفحه اصلی</a></li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" fill="none" stroke="currentColor" stroke-width="1.5"
+                    class="bi bi-chevron-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0">
+                    </path>
+                </svg>
+                <li class="nav-link transition fs-14px"><a href="./about-us.html">درباره ما</a></li>
+            </ul>
         </section>
     </section>
 
@@ -282,8 +292,7 @@
             </div>
         </section>
         <!-- Our Products Brands Section -->
-        <section
-            class="d-flex flex-column align-items-center justify-content-center gap-3 gap-sm-5 mt-5">
+        <section class="d-flex flex-column align-items-center justify-content-center gap-3 gap-sm-5 mt-5">
             <div class="w-100 mb-5">
                 <h4 class="m-0 color-green1 fw-bold mb-3 text-center mb-4 mb-sm-5">برندهای محصولات ما</h4>
                 <div class="coffee-brands-grid col-10 col-xl-7 col-lg-8 col-md-10 col-sm-8 mx-auto">
