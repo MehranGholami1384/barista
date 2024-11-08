@@ -492,3 +492,27 @@ video::-internal-media-controls-download-button {
 .back-to-shop-link:hover {
     background-color: var(--color-gray8) !important;
 }
+
+/* auth page */
+
+.toggle-show-password-btn {
+    left: 30px;
+}
+
+.login-btn {
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.forget-password-link:hover {
+    color: var(--color-blue3) !important;
+}
+
+.forget-password-form {
+    width: 60% !important;
+}

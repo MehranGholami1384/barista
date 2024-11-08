@@ -213,6 +213,48 @@
         </section>
     </section>
 
+    <!-- Main -->
+    <main>
+        <!-- Login Section -->
+        <section class="col-12 col-lg-9 mx-auto my-5 px-3 auth-content-area">
+            <h3 class="mb-3">ورود</h3>
+            <form class="form-control p-4 rounded">
+                <div class="mb-3">
+                    <label for="username-email-input" class="color-gray10 fs-14px mb-2">نام کاربری یا آدرس ایمیل <span
+                            class="text-danger fw-bold">*</span></label>
+                    <input id="username-email-input" type="text"
+                        class="form-control shadow-none border-0 bg-gray9 py-3 rounded-0">
+                </div>
+                <div class="mb-4">
+                    <label for="password-input" class="color-gray10 fs-14px mb-2">گذرواژه <span
+                            class="text-danger fw-bold">*</span></label>
+                    <div class="position-relative">
+                        <input id="password-input" type="password"
+                            class="form-control shadow-none border-0 bg-gray9 py-3 rounded-0">
+                        <button
+                            class="toggle-show-password-btn btn border-0 p-0 position-absolute top-50 translate-middle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" fill="currentColor"
+                                class="bi bi-eye-fill color-gray10" viewBox="0 0 16 16">
+                                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                                <path
+                                    d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="d-flex flex-column-reverse flex-sm-row align-items-start align-items-sm-center justify-content-start gap-3 mb-3">
+                    <button class="btn border-0 bg-blue3 text-white login-btn" onclick="return false;">ورود</button>
+                    <div class="d-flex align-items-center justify-content-center gap-1">
+                        <input type="checkbox" id="remember-me">
+                        <label for="remember-me" class="color-gray10 fs-14px">مرا به خاطر بسپار</label>
+                    </div>
+                </div>
+                <a href="#" class="fs-15px forget-password-link transition">گذرواژه خود را فراموش کرده‌اید؟</a>
+            </form>
+            <form class="form-control forget-password-form"></form>
+        </section>
+    </main>
+
     <!-- Footer -->
     <footer class="footer bg-no-repeant-size-cover position-relative">
         <div class="footer-overlay object-fit-cover position-absolute top-0 end-0 w-100 h-100"></div>
