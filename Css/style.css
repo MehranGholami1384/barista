@@ -516,3 +516,15 @@ video::-internal-media-controls-download-button {
 .forget-password-form {
     width: 60% !important;
 }
+
+/* contact page */
+
+.contact-us-grid {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-us-img-container {
+    grid-column: 1 / -1;
+}
