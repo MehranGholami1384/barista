@@ -1,4 +1,10 @@
-@media only screen and (max-width: 1199.5px) {}
+@media only screen and (max-width: 1199.5px) {
+    /* contact page */
+
+    .contact-us-grid {
+        width: 100%;
+    }
+}
 
 @media only screen and (max-width: 1050px) {
 

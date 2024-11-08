@@ -56,6 +56,10 @@
     color: var(--color-green1) !important;
 }
 
+.fill-green1 {
+    fill: var(--color-green1) !important;
+}
+
 .color-red1 {
     color: var(--color-red1) !important;
 }

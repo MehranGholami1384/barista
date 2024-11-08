@@ -165,7 +165,8 @@ video::-internal-media-controls-download-button {
     margin-right: 10px;
 }
 
-.header-social-links {
+.header-social-links,
+.contact-social-links {
     width: 30px;
     height: 30px;
     border: 1.6px solid var(--color-green1);
@@ -527,4 +528,23 @@ video::-internal-media-controls-download-button {
 
 .contact-us-img-container {
     grid-column: 1 / -1;
+}
+
+.contact-social-links-title::after {
+    content: '';
+    width: 13px;
+    height: 1px;
+    position: absolute;
+    background-color: var(--color-black1);
+    top: 8px;
+    margin-right: 10px;
+}
+
+.contact-social-links:hover {
+    background-color: var(--color-green1) !important;
+    color: var(--color-white1) !important;
+}
+
+.contact-info-links:hover {
+    color: var(--color-green1) !important;
 }
