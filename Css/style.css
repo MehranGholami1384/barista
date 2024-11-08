@@ -524,6 +524,7 @@ video::-internal-media-controls-download-button {
     width: 1200px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 30px 50px;
 }
 
 .contact-us-img-container {
@@ -547,4 +548,24 @@ video::-internal-media-controls-download-button {
 
 .contact-info-links:hover {
     color: var(--color-green1) !important;
+}
+
+.send-message-form input,
+.send-message-form textarea {
+    border: 1px solid var(--color-gray3) !important;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+}
+
+.send-message-form input::placeholder,
+.send-message-form textarea::placeholder {
+    color: var(--color-gray10) !important;
+}
+
+.send-message-form input:focus,
+.send-message-form textarea:focus {
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .1) !important;
 }
