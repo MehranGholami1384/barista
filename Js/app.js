@@ -106,6 +106,21 @@ $(document).ready(function () {
         }
     })
 
+    const searchPageParam = searchParams.get('page')
+
+    if (searchPageParam === 'lost-password') {
+        $('.auth-head-title').html('فراموشی گذرواژه')
+        
+        $('.auth-content-area').empty()
+        $('.auth-content-area').load('auth.html .forget-password-form', function (xhr, status, error) {
+            if (status == 'error') {
+                console.log("Error: " + xhr.status + " " + xhr.statusText);
+            } else {
+                $('.forget-password-form').removeClass('d-none')
+            }
+        })
+    }
+
     // global ---------------------------------------------------------------------------------------------------------
 
     function formatPriceWithCommas() {

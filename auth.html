@@ -199,7 +199,7 @@
         <!-- Head Title Section -->
         <section
             class="mt-4 pb-4 text-white d-flex align-items-center justify-content-center flex-column gap-3 z-0 position-relative">
-            <h4 class="fw-bold text-center pe-0 pe-lg-5 me-0 me-lg-3">حساب کاربری من</h4>
+            <h4 class="fw-bold text-center pe-0 pe-lg-5 me-0 me-lg-3 auth-head-title">حساب کاربری من</h4>
             <ul class="d-flex align-items-center justify-content-center gap-2 ps-0 pe-0 pe-lg-5">
                 <li class="nav-link transition fs-14px"><a href="./">صفحه اصلی</a></li>
                 <svg xmlns="http://www.w3.org/2000/svg" width="10" fill="none" stroke="currentColor" stroke-width="1.5"
@@ -249,9 +249,21 @@
                         <label for="remember-me" class="color-gray10 fs-14px">مرا به خاطر بسپار</label>
                     </div>
                 </div>
-                <a href="#" class="fs-15px forget-password-link transition">گذرواژه خود را فراموش کرده‌اید؟</a>
+                <a href="./auth.html?page=lost-password" class="fs-15px forget-password-link transition">گذرواژه خود را فراموش کرده‌اید؟</a>
             </form>
-            <form class="form-control forget-password-form"></form>
+            <!-- Forget Password Form -->
+            <form class="form-control forget-password-form p-4 d-none">
+                <p class="mb-3 color-gray10 fs-15px">
+                    گذرواژه خود را فراموش کرده اید؟ نام کاربری یا ایمیل خود را وارد کنید. یک لینک برای ساختن گذرواژه جدید در ایمیل خود دریافت خواهید کرد.
+                </p>
+                <div class="mb-3">
+                    <label for="lost-password-username-email-input" class="color-gray10 fs-14px mb-2">نام کاربری یا آدرس ایمیل <span
+                            class="text-danger fw-bold">*</span></label>
+                    <input id="lost-password-username-email-input" type="text"
+                        class="form-control shadow-none border-0 bg-gray9 py-3 rounded-0">
+                </div>
+                <button class="btn border-0 bg-blue3 text-white login-btn" onclick="return false;">ورود</button>
+            </form>
         </section>
     </main>
 
