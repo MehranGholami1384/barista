@@ -581,3 +581,7 @@ video::-internal-media-controls-download-button {
     text-decoration: underline !important;
     text-underline-offset: 6px;
 }
+
+.blog-content-ul li {
+    list-style-type: disc !important;
+}
