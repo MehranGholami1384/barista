@@ -72,7 +72,8 @@
     /* Blog Content Section */
     
     .blog-content-section,
-    .blogs-navigation-section {
+    .blogs-navigation-section,
+    .blog-comments-section {
         width: 100%;
     }
 }
@@ -196,6 +197,12 @@
 
     .blog-navigation-links {
         font-size: 10px !important;
+    }
+
+    /* blog comment section */
+
+    .send-blog-comment-btn {
+        width: 100%;
     }
 }
 

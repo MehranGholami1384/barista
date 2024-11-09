@@ -225,7 +225,7 @@
     </section>
 
     <!-- Main -->
-    <main>
+    <main class="mb-4">
         <!-- Blog Content Section -->
         <section
             class="blog-content-section d-flex flex-column align-items-center justify-content-center mt-5 mx-auto px-3">
@@ -319,6 +319,38 @@
                 <div class="position-absolute top-50 start-50 translate-middle blogs-navigation-section-middle-line"></div>
             </div>
          </section>
+         <!-- Blog Comments Section -->
+          <section class="blog-comments-section mt-4 mx-auto px-3">
+            <h5 class="m-0">
+                دیدگاهتان را بنویسید
+            </h5>
+            <p class="m-0 fs-14px mt-3">
+                نشانی ایمیل شما منتشر نخواهد شد. بخش‌های موردنیاز علامت‌گذاری شده‌اند *
+            </p>
+            <div class="mt-3">
+                <label for="blog-comment-textarea" class="fs-15px">دیدگاه *</label>
+                <textarea class="resize-none form-control mt-1 shadow-none border border-black border-opacity-25 fs-15px py-2" id="blog-comment-textarea"></textarea>
+            </div>
+            <div class="mt-3">
+                <label for="blog-comment-username" class="fs-15px">نام *</label>
+                <input type="text" class="resize-none form-control mt-1 shadow-none border border-black border-opacity-25 fs-15px py-2" id="blog-comment-username"></input>
+            </div>
+            <div class="mt-3">
+                <label for="blog-comment-email" class="fs-15px">ایمیل *</label>
+                <input type="email" class="resize-none form-control mt-1 shadow-none border border-black border-opacity-25 fs-15px py-2" id="blog-comment-email"></input>
+            </div>
+            <div class="mt-3">
+                <label for="blog-comment-website" class="fs-15px">وبسایت *</label>
+                <input type="text" class="resize-none form-control mt-1 shadow-none border border-black border-opacity-25 fs-15px py-2" id="blog-comment-website"></input>
+            </div>
+            <div class="mt-3 d-flex align-items-start justify-content-start gap-2">
+                <input type="checkbox" class="mt-1" id="blog-comment-checkbox"></input>
+                <label for="blog-comment-checkbox" class="fs-15px">
+                    ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم.
+                </label>
+            </div>
+            <button class="btn border-0 btn-dark send-blog-comment-btn mt-4 py-2 px-5" onclick="return false;">فرستادن دیدگاه</button>
+          </section>
     </main>
 
     <!-- Footer -->

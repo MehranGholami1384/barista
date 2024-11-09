@@ -574,7 +574,8 @@ video::-internal-media-controls-download-button {
 /* Blog Content Section */
 
 .blog-content-section,
-.blogs-navigation-section {
+.blogs-navigation-section,
+.blog-comments-section {
     width: 992px;
 }
 
@@ -599,4 +600,15 @@ video::-internal-media-controls-download-button {
     opacity: 0.4;
     width: 0.5px !important;
     height: 70%;
+}
+
+/* Blog Comments Section */
+
+#blog-comment-textarea {
+    height: 200px;
+}
+
+.blog-comments-section input:focus,
+.blog-comments-section textarea:focus {
+    border-color: var(--color-black1) !important;
 }
