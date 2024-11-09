@@ -68,6 +68,12 @@
     .contact-us-grid {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* Blog Content Section */
+    
+    .blog-content-section {
+        width: 95%;
+    }
 }
 
 @media only screen and (max-width: 767.5px) {
@@ -102,6 +108,12 @@
     .coffee-beans-preparation-steps-container {
         width: 550px;
         height: 350px;
+    }
+
+    /* Blog Content Section */
+
+    .blog-content-img {
+        width: 100%;
     }
 }
 

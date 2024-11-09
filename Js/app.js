@@ -121,6 +121,14 @@ $(document).ready(function () {
         })
     }
 
+    // blog page ------------------------------------------------------------------------------------------------------
+
+    $('.headlines-slide').slideDown(0)
+    $('.headlines-slide-toggle-btn').click(function () {
+        $('.headlines-slide').slideToggle(100)
+        $('.headlines-slide-toggle-icon').toggleClass('deg180')
+    })
+
     // global ---------------------------------------------------------------------------------------------------------
 
     function formatPriceWithCommas() {

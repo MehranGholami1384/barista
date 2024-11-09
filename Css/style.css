@@ -569,3 +569,15 @@ video::-internal-media-controls-download-button {
 .send-message-form textarea:focus {
     box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .1) !important;
 }
+
+/* Blog Content Section */
+
+.blog-content-section {
+    width: 992px;
+}
+
+.headlines-links:hover {
+    color: var(--color-green1) !important;
+    text-decoration: underline !important;
+    text-underline-offset: 6px;
+}
