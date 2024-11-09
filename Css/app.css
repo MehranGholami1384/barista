@@ -37,6 +37,7 @@
     --color-gray9: #f9fafa;
     --color-gray10: #69727d;
     --color-gray11: #9da5ae;
+    --color-gray12: #7a7a7a;
     --color-green1: #4D8B55;
     --color-white1: #ffffff;
     --color-white2: #ffffff99;
@@ -91,6 +92,10 @@
 
 .color-gray10 {
     color: var(--color-gray10) !important;
+}
+
+.color-gray12 {
+    color: var(--color-gray12) !important;
 }
 
 .color-yellow1 {

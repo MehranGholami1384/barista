@@ -71,8 +71,9 @@
 
     /* Blog Content Section */
     
-    .blog-content-section {
-        width: 95%;
+    .blog-content-section,
+    .blogs-navigation-section {
+        width: 100%;
     }
 }
 
@@ -188,6 +189,13 @@
 
     .login-btn {
         width: 100% !important;
+    }
+
+    /* blog page */
+    /* blogs navigation section */
+
+    .blog-navigation-links {
+        font-size: 10px !important;
     }
 }
 
