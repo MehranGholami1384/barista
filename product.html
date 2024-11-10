@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./Css/bootstrap.min.css">
     <link rel="stylesheet" href="./Css/owl.carousel.min.css">
     <link rel="stylesheet" href="./Css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./Css/responsive-tabs.css">
     <link rel="shortcut icon" href="./Images/barista-favicon.png" type="image/x-icon">
     <title>هات چاکلت بسته‌ای - باریستا</title>
 </head>
@@ -234,14 +234,8 @@
         <section class="product-info-grid mx-auto px-3 mt-5">
             <!-- Product Image -->
             <div class="position-relative">
-                <button class="btn border-0 rounded-circle shadow-lg bg-white search-magnific-popup-btn position-absolute translate-middle transition p-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" fill="currentColor" class="bi bi-search text-black" viewBox="0 0 16 16">
-                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-                      </svg>
-                </button>
-                <!-- <img class="w-100 zoom-img" src="./Images/Best-Selling-Products/large-hot-chocolate.jpg" alt="Hot Chocolate"> -->
                 <img class="w-100 zoom-img" src="./Images/Best-Selling-Products/large-hot-chocolate.jpg" alt="Hot Chocolate">
-                <div class="d-flex align-items-center justify-content-start">
+                <div class="d-flex align-items-center justify-content-start product-images-magnific-popup">
                     <button class="btn border-0 p-0 product-img-slider-btn active">
                         <img class="pe-none" width="100" src="./Images/Best-Selling-Products/large-hot-chocolate.jpg" alt="Hot Chocolate">
                     </button>
@@ -273,7 +267,7 @@
                             <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"></path>
                         </svg>
                     </div>
-                    <a href="#" class="fs-12px">(1 بررسی مشتری)</a>
+                    <a href="#product-comments-heading" class="fs-12px scroll-to-product-comment-tab">(1 بررسی مشتری)</a>
                 </div>
                 <p class="mb-0 mt-3">
                     <span class="color-gray6">قیمت محصول : </span>
@@ -323,6 +317,60 @@
                 </div>
              </div>
         </section>
+        <!-- Product Info Tabs Section -->
+        <section class="mt-5 product-info-tabs-section mx-auto px-3">
+            <!-- Tabs -->
+            <ul class="product-info-tabs-ul p-0 d-inline-flex align-items-center justify-content-start fs-14px m-0 bg-gray7">
+                <li><a href="#prodcut-info-tab" class="product-info-tabs px-3 px-sm-5 py-2 d-inline-block active">توضیحات</a></li>
+                <li><a href="#product-full-info-tab" class="product-info-tabs px-3 px-sm-5 py-2 d-inline-block">توضیحات تکمیلی</a></li>
+                <li><a href="#product-comments" class="product-info-tabs px-3 px-sm-5 py-2 d-inline-block">نظرات (1)</a></li>
+            </ul>
+            <!-- Tabs Content -->
+            <div class="product-info-tabs-content-container shadow">
+                <div id="prodcut-info-tab" class="product-info-tabs-content-container">
+                    <h6 class="fw-bold mt-3">توضیحات</h6>
+                    <p class="mb-0 mt-3 lh-lg fs-14px">
+                        اگر به دنبال یک نوشیدنی قهوه‌ای خوشمزه و معتادکننده هستید، کاپوچینو یکی از بهترین گزینه‌هاست. با ترکیب قهوه اسپرسو، شیر بخارانده شده و کاکائو پودر، این نوشیدنی با طعم و عطری دلپذیر و خوشمزه، علاوه بر لذت بخش بودن، انرژی و تازگی روزانه را به شما هدیه می‌دهد.
+                    </p>
+                    <p class="mb-0 mt-2 lh-lg fs-14px">
+                        برای خرید کاپوچینو، می‌توانید به فروشگاه‌های قهوه‌ای محلی خود مراجعه کنید یا به شکل آنلاین از فروشگاه‌های اینترنتی استفاده کنید. در هر دو حالت، مطمئن باشید که از محصولات با کیفیت و از برندهای معتبر خریداری کنید تا از طعم و عطر لذت بخش کاپوچینو بهترین استفاده را ببرید.
+                    </p>
+                    <p class="mb-0 mt-2 lh-lg fs-14px">
+                        به علاوه، برای تجربه بهتری، می‌توانید از انواع مختلف کاپوچینو مانند کاپوچینو ساده، کاپوچینو وانیلی، کاپوچینو شکلاتی و … استفاده کنید. همچنین، می‌توانید با استفاده از یک دستگاه قهوه‌ساز خانگی، کاپوچینو خود را در خانه تهیه کنید و از لذت بخش بودن این نوشیدنی در هر زمانی لذت ببرید.
+                    </p>
+                    <p class="mb-0 mt-2 lh-lg fs-14px">
+                        در نهایت، می‌توان گفت که کاپوچینو یکی از بهترین نوشیدنی‌های قهوه‌ای جهان است که علاوه بر لذت بخش بودن، انرژی و تازگی روزانه را به شما هدیه می‌دهد. پس فراموش نکنید که از محصولات با کیفیت و از برندهای معتبر خریداری کنید تا از طعم و عطر لذت بخش کاپوچینو بهترین استفاده را ببرید.
+                    </p>
+                </div>
+                <div id="product-full-info-tab" class="product-info-tabs-content-container">
+                    <h6 class="fw-bold mt-3">توضیحات تکمیلی</h6>
+                    <table class="fs-13px w-100 mt-3">
+                        <tbody>
+                            <tr class="border border-secondary border-opacity-50 product-full-info-tr">
+                                <th class="fw-bold product-full-info-th text-center">رنگ بسته‌بندی</th>
+                                <td class="border-end pe-4 border-secondary border-opacity-50">سبز</td>
+                            </tr>
+                            <tr class="border border-secondary border-opacity-50 product-full-info-tr">
+                                <th class="fw-bold product-full-info-th text-center">تعداد ساشه</th>
+                                <td class="border-end pe-4 border-secondary border-opacity-50">24 ساشه</td>
+                            </tr>
+                            <tr class="border border-secondary border-opacity-50 product-full-info-tr">
+                                <th class="fw-bold product-full-info-th text-center">وزن محصول</th>
+                                <td class="border-end pe-4 border-secondary border-opacity-50">480 گرم</td>
+                            </tr>
+                            <tr class="border border-secondary border-opacity-50 product-full-info-tr">
+                                <th class="fw-bold product-full-info-th text-center">بسته‌بندی</th>
+                                <td class="border-end pe-4 border-secondary border-opacity-50">ساشه 3 لایه فویل آلومینیومی</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="product-comments" class="product-info-tabs-content-container">
+                    <p id="product-comments-heading" class="mb-0 pt-3">Tab #3</p>
+                </div>
+            </div>
+        </section>
+        <section class="mt-5"></section>
      </main>
 
     <!-- Footer -->
@@ -526,20 +574,9 @@
     <script src="./Js/jquery.min.js"></script>
     <script src="./Js/owl.carousel.min.js"></script>
     <script src="./Js/jquery.ez-plus.js"></script>
+    <script src="./Js/jquery.responsiveTabs.min.js"></script>
     <script src="./Js/bootstrap.bundle.min.js"></script>
     <script src="./Js/app.js"></script>
-
-    <!-- <img id="zoom-image" class="border-0" src="./Images/Blogs/affogato-a-popular-drink.jpg" width="300"
-        data-zoom-image="Images/Blogs/affogato-a-popular-drink.jpg" alt="">
-
-    <script>
-        $(document).ready(function () {
-            $('#zoom-image').ezPlus({
-                zoomType: 'inner',
-                // cursor: 'crosshair'
-            });
-        });
-    </script> -->
 
 </body>
 

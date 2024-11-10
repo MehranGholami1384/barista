@@ -94,13 +94,18 @@
 
     .product-info-grid {
         grid-template-columns: 1fr;
-        /* grid-template-rows: repeat(2, 1fr); */
     }
 
     .touchpoints-grid {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, max-content);
         gap: 20px;
+    }
+
+    /* Product Info Tabs Section */
+
+    .product-info-tabs-section {
+        width: 100% !important;
     }
 }
 
@@ -235,5 +240,9 @@
 @media only screen and (max-width: 355px) {
     .contact-info-links[href="https://mehrangholami1384.github.io/Personal-Website/"] {
         font-size: 12px !important;
+    }
+
+    .product-info-tabs {
+        font-size: 13px !important;
     }
 }

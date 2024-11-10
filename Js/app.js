@@ -129,7 +129,7 @@ $(document).ready(function () {
         $('.headlines-slide-toggle-icon').toggleClass('deg180')
     })
 
-    // blog page ------------------------------------------------------------------------------------------------------
+    // product page ------------------------------------------------------------------------------------------------------
 
     function setZoom() {
         if (window.innerWidth >= 992) {
@@ -152,8 +152,19 @@ $(document).ready(function () {
         });
         $('.product-img-slider-btn').removeClass('active')
         $(this).addClass('active')
-        console.log($(this)[0])
     })
+
+    $('.product-info-tabs').click(function (event) {
+        event.preventDefault()
+        $('.product-info-tabs').removeClass('active')
+        $(this).addClass('active')
+    })
+
+    $('.scroll-to-product-comment-tab').click(function () {
+        $('.product-info-tabs[href="#product-comments"]').trigger('click');
+    })
+
+    $('.product-info-tabs-section').responsiveTabs()
 
     // global ---------------------------------------------------------------------------------------------------------
 
