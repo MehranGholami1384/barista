@@ -612,3 +612,32 @@ video::-internal-media-controls-download-button {
 .blog-comments-section textarea:focus {
     border-color: var(--color-black1) !important;
 }
+
+/* product page */
+/* Product Info Section */
+
+.zoomWindow {
+    border: none !important;
+    outline: none !important;
+}
+
+.product-info-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    width: 1150px;
+    gap: 10px;
+}
+
+.product-quantity {
+    width: 80px !important;
+}
+
+.product-quantity:focus {
+    border-color: var(--color-black1) !important;
+}
+
+.touchpoints-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}

@@ -4,6 +4,12 @@
     .contact-us-grid {
         width: 100%;
     }
+
+    /* product page */
+
+    .product-info-grid {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 1050px) {
@@ -70,11 +76,25 @@
     }
 
     /* Blog Content Section */
-    
+
     .blog-content-section,
     .blogs-navigation-section,
     .blog-comments-section {
         width: 100%;
+    }
+
+    /* product page */
+    /* Product Info Section */
+
+    .product-info-grid {
+        grid-template-columns: 1fr;
+        /* grid-template-rows: repeat(2, 1fr); */
+    }
+
+    .touchpoints-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, max-content);
+        gap: 20px;
     }
 }
 

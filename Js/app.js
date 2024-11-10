@@ -122,17 +122,21 @@ $(document).ready(function () {
     }
 
     // blog page ------------------------------------------------------------------------------------------------------
-
+    
     $('.headlines-slide').slideDown(0)
     $('.headlines-slide-toggle-btn').click(function () {
         $('.headlines-slide').slideToggle(100)
         $('.headlines-slide-toggle-icon').toggleClass('deg180')
     })
+    
+    // blog page ------------------------------------------------------------------------------------------------------
+
+    
 
     // global ---------------------------------------------------------------------------------------------------------
 
     function formatPriceWithCommas() {
-        $('.best-selling-products-price').each(function () {
+        $('.best-selling-products-price, .product-price').each(function () {
             let price = parseInt($(this).text());
             $(this).text(price.toLocaleString('en-US'));
         });
@@ -145,7 +149,7 @@ $(document).ready(function () {
             }
         });
 
-        $("input").each(function () {
+        $("input:not(.product-quantity)").each(function () {
             $(this).val($(this).val().toPersianDigit());
         });
     }
