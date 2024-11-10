@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./Css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="shortcut icon" href="./Images/barista-favicon.png" type="image/x-icon">
-    <title>حساب کاربری من - باریستا</title>
+    <title>هات چاکلت بسته‌ای - باریستا</title>
 </head>
 
 <body class="position-relative">
@@ -87,13 +87,13 @@
                         </svg>
                         <span class="cart-count position-absolute bg-green1 rounded-circle">0</span>
                     </button>
-                    <a href="./auth.html" class="fs-13px active-nav-link">حساب کاربری من</a>
+                    <a href="./auth.html" class="fs-13px">حساب کاربری من</a>
                 </div>
             </section>
             <nav class="mt-3 fs-15px font-vazir-light d-none d-lg-block">
                 <ul class="d-flex align-items-center justify-content-center gap-5">
                     <li class="nav-link transition"><a href="./">صفحه اصلی</a></li>
-                    <li class="nav-link transition position-relative">
+                    <li class="nav-link transition position-relative demo-pages-link active-nav-link">
                         <a href="#">
                             <span>
                                 صفحات دمو
@@ -111,10 +111,11 @@
                                         404</a></li>
                                 <li class="sub-menu-link transition border-top border-secondary border-opacity-25"><a
                                         class="w-100 d-inline-block p-3" href="./blog.html">نمایش محتوای نوشته</a></li>
-                                <li class="sub-menu-link transition border-top border-secondary border-opacity-25"><a
-                                        class="w-100 d-inline-block p-3"
-                                        href="./shop.html?product-category=robusta">دسته بندی محصول</a></li>
-                                <li class="sub-menu-link transition border-top border-secondary border-opacity-25"><a
+                                <li
+                                    class="sub-menu-link transition border-top border-secondary border-opacity-25 product-category-link">
+                                    <a class="w-100 d-inline-block p-3" href="./shop.html?product-category=robusta">دسته
+                                        بندی محصول</a></li>
+                                <li class="sub-menu-link transition border-top border-secondary border-opacity-25 active"><a
                                         class="w-100 d-inline-block p-3" href="./product.html">توضیحات محصول</a></li>
                             </ul>
                         </div>
@@ -144,7 +145,7 @@
                 <ul class="p-0 text-black px-3 w-100">
                     <li class="side-nav-link py-3 transition"><a href="./">صفحه اصلی</a></li>
                     <li
-                        class="side-nav-link side-nav-sub-menu-btn py-3 border-top border-secondary border-opacity-25 transition">
+                        class="side-nav-link demo-pages-link active-nav-link side-nav-sub-menu-btn py-3 border-top border-secondary border-opacity-25 transition">
                         <a href="#">
                             <span>
                                 صفحات دمو
@@ -160,24 +161,25 @@
                                     href="./404.html">صفحه 404</a></li>
                             <li class="side-nav-sub-menu-link transition border-top border-secondary border-opacity-25">
                                 <a class="w-100 d-inline-block p-3" href="./blog.html">نمایش محتوای نوشته</a></li>
-                            <li class="side-nav-sub-menu-link transition border-top border-secondary border-opacity-25">
+                            <li
+                                class="side-nav-sub-menu-link transition border-top border-secondary border-opacity-25 product-category-link">
                                 <a class="w-100 d-inline-block p-3" href="./shop.html?product-category=robusta">دسته
                                     بندی محصول</a></li>
-                            <li class="side-nav-sub-menu-link transition border-top border-secondary border-opacity-25">
+                            <li class="side-nav-sub-menu-link transition border-top border-secondary border-opacity-25 active">
                                 <a class="w-100 d-inline-block p-3" href="./product.html">توضیحات محصول</a></li>
                         </ul>
                     </li>
-                    <li class="side-nav-link py-3 border-top border-secondary border-opacity-25 transition"><a
-                            href="./shop.html">فروشگاه</a></li>
-                    <li class="side-nav-link py-3 border-top border-secondary border-opacity-25 transition"><a
-                            href="./blogs.html">اخبار و مقالات</a></li>
+                    <li
+                        class="side-nav-link py-3 border-top border-secondary border-opacity-25 transition shop-nav-link">
+                        <a href="./shop.html">فروشگاه</a></li>
+                    <li class="side-nav-link py-3 border-top border-secondary border-opacity-25 transition">
+                        <a href="./blogs.html">اخبار و مقالات</a></li>
                     <li class="side-nav-link py-3 border-top border-secondary border-opacity-25 transition">
                         <a href="./about-us.html">درباره ما</a></li>
                     <li class="side-nav-link py-3 border-top border-secondary border-opacity-25 transition"><a
                             href="./contact.html">تماس با ما</a></li>
-                    <li
-                        class="side-nav-link py-3 active-nav-link border-top border-secondary border-opacity-25 transition">
-                        <a href="./auth.html">حساب کاربری من</a></li>
+                    <li class="side-nav-link py-3 border-top border-secondary border-opacity-25 transition"><a
+                            href="./auth.html">حساب کاربری من</a></li>
                 </ul>
                 <div class="position-relative px-3 mb-3 w-100">
                     <input type="search"
@@ -201,9 +203,9 @@
         </header>
         <!-- Head Title Section -->
         <section
-            class="mt-4 pb-4 text-white d-flex align-items-center justify-content-center flex-column gap-3 z-0 position-relative">
-            <h4 class="fw-bold text-center pe-0 pe-lg-5 me-0 me-lg-3 auth-head-title">حساب کاربری من</h4>
-            <ul class="d-flex align-items-center justify-content-center gap-2 ps-0 pe-0 pe-lg-5">
+            class="shop-head-title-section d-none mt-4 pb-4 text-white d-flex align-items-center justify-content-center flex-column gap-3 z-0 position-relative">
+            <h4 class="fw-bold text-center pe-0 pe-lg-5 me-0 me-lg-3">هات چاکلت بسته‌ای</h4>
+            <ul class="d-flex align-items-center justify-content-center gap-2 ps-0 pe-0 pe-lg-5 flex-wrap">
                 <li class="nav-link transition fs-14px"><a href="./">صفحه اصلی</a></li>
                 <svg xmlns="http://www.w3.org/2000/svg" width="10" fill="none" stroke="currentColor" stroke-width="1.5"
                     class="bi bi-chevron-left" viewBox="0 0 16 16">
@@ -211,68 +213,17 @@
                         d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0">
                     </path>
                 </svg>
-                <li class="nav-link transition fs-14px"><a href="./auth.html">حساب کاربری من</a></li>
+                <li class="nav-link transition fs-14px"><a href="./shop.html?product-category=robusta">قهوه روبوستا</a></li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" fill="none" stroke="currentColor" stroke-width="1.5"
+                    class="bi bi-chevron-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0">
+                    </path>
+                </svg>
+                <li class="nav-link transition fs-14px"><a href="./product.html">هات چاکلت بسته‌ای</a></li>
             </ul>
         </section>
     </section>
-
-    <!-- Main -->
-    <main>
-        <!-- Login Section -->
-        <section class="col-12 col-lg-9 mx-auto my-5 px-3 auth-content-area">
-            <h3 class="mb-3">ورود</h3>
-            <!-- Login Form -->
-            <form class="form-control p-4 rounded">
-                <div class="mb-3">
-                    <label for="username-email-input" class="color-gray10 fs-14px mb-2">نام کاربری یا آدرس ایمیل <span
-                            class="text-danger fw-bold">*</span></label>
-                    <input id="username-email-input" type="text"
-                        class="form-control shadow-none border-0 bg-gray9 py-3 rounded-0">
-                </div>
-                <div class="mb-4">
-                    <label for="password-input" class="color-gray10 fs-14px mb-2">گذرواژه <span
-                            class="text-danger fw-bold">*</span></label>
-                    <div class="position-relative">
-                        <input id="password-input" type="password"
-                            class="form-control shadow-none border-0 bg-gray9 py-3 rounded-0">
-                        <button
-                            class="toggle-show-password-btn btn border-0 p-0 position-absolute top-50 translate-middle">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" fill="currentColor"
-                                class="bi bi-eye-fill color-gray10" viewBox="0 0 16 16">
-                                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
-                                <path
-                                    d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-                <div
-                    class="d-flex flex-column-reverse flex-sm-row align-items-start align-items-sm-center justify-content-start gap-3 mb-3">
-                    <button class="btn border-0 bg-blue3 text-white login-btn" onclick="return false;">ورود</button>
-                    <div class="d-flex align-items-center justify-content-center gap-1">
-                        <input type="checkbox" id="remember-me">
-                        <label for="remember-me" class="color-gray10 fs-14px">مرا به خاطر بسپار</label>
-                    </div>
-                </div>
-                <a href="./auth.html?page=lost-password" class="fs-15px forget-password-link transition">گذرواژه خود را
-                    فراموش کرده‌اید؟</a>
-            </form>
-            <!-- Forget Password Form -->
-            <form class="form-control forget-password-form p-4 d-none">
-                <p class="mb-3 color-gray10 fs-15px">
-                    گذرواژه خود را فراموش کرده اید؟ نام کاربری یا ایمیل خود را وارد کنید. یک لینک برای ساختن گذرواژه
-                    جدید در ایمیل خود دریافت خواهید کرد.
-                </p>
-                <div class="mb-3">
-                    <label for="lost-password-username-email-input" class="color-gray10 fs-14px mb-2">نام کاربری یا آدرس
-                        ایمیل <span class="text-danger fw-bold">*</span></label>
-                    <input id="lost-password-username-email-input" type="text"
-                        class="form-control shadow-none border-0 bg-gray9 py-3 rounded-0">
-                </div>
-                <button class="btn border-0 bg-blue3 text-white login-btn" onclick="return false;">ورود</button>
-            </form>
-        </section>
-    </main>
 
     <!-- Footer -->
     <footer class="footer bg-no-repeant-size-cover position-relative">
