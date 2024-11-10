@@ -233,8 +233,22 @@
         <!-- Product Info Section -->
         <section class="product-info-grid mx-auto px-3 mt-5">
             <!-- Product Image -->
-            <div class="">
-                <img class="w-100" src="./Images/Best-Selling-Products/large-hot-chocolate.jpg" alt="Hot Chocolate">
+            <div class="position-relative">
+                <button class="btn border-0 rounded-circle shadow-lg bg-white search-magnific-popup-btn position-absolute translate-middle transition p-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" fill="currentColor" class="bi bi-search text-black" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                      </svg>
+                </button>
+                <!-- <img class="w-100 zoom-img" src="./Images/Best-Selling-Products/large-hot-chocolate.jpg" alt="Hot Chocolate"> -->
+                <img class="w-100 zoom-img" src="./Images/Best-Selling-Products/large-hot-chocolate.jpg" alt="Hot Chocolate">
+                <div class="d-flex align-items-center justify-content-start">
+                    <button class="btn border-0 p-0 product-img-slider-btn active">
+                        <img class="pe-none" width="100" src="./Images/Best-Selling-Products/large-hot-chocolate.jpg" alt="Hot Chocolate">
+                    </button>
+                    <button class="btn border-0 p-0 product-img-slider-btn">
+                        <img class="pe-none" width="110" src="./Images/Best-Selling-Products/hot-chocolate-2.png" alt="Hot Chocolate">
+                    </button>
+                </div>
             </div>
             <!-- Product Info -->
              <div class="product-info-container">

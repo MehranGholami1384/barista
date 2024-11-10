@@ -28,6 +28,12 @@
     }
 }
 
+@media only screen and (min-width: 991.5px) {
+    .product-img-slider-btn:hover {
+        opacity: 1 !important;
+    }
+}
+
 @media only screen and (max-width: 991.5px) {
 
     /* header */
