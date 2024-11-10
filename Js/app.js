@@ -23,16 +23,16 @@ $(document).ready(function () {
     // index page -----------------------------------------------------------------------------------------------------
     // header ---------------------------------------------------------------------------------------------------------
 
-    $('.nav-link').hover(function () {
-        let icon = $(this).find('.nav-link-caret-down')[0]
-        let subMenu = $(this).find('.sub-menu')[0]
-
-        if (icon) {
-            $(icon).toggleClass('deg180')
-        }
-
-        if (subMenu) {
-            $(subMenu).toggleClass('invisible opacity-0')
+    $('.nav-link').on({
+        mouseenter: function () {
+            const $this = $(this)
+            $this.find('.nav-link-caret-down').addClass('deg180')
+            $this.find('.sub-menu').removeClass('invisible opacity-0')
+        },
+        mouseleave: function () {
+            const $this = $(this)
+            $this.find('.nav-link-caret-down').removeClass('deg180')
+            $this.find('.sub-menu').addClass('invisible opacity-0')
         }
     })
 
@@ -110,7 +110,7 @@ $(document).ready(function () {
 
     if (searchPageParam === 'lost-password') {
         $('.auth-head-title').html('فراموشی گذرواژه')
-        
+
         $('.auth-content-area').empty()
         $('.auth-content-area').load('auth.html .forget-password-form', function (xhr, status, error) {
             if (status == 'error') {
