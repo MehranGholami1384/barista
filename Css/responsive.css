@@ -6,9 +6,16 @@
     }
 
     /* product page */
+    /* Product Info Section */
 
     .product-info-grid {
         width: 100%;
+    }
+
+    /* Product Info Tabs Section */
+
+    .product-info-tabs-section {
+        width: 100% !important;
     }
 }
 
@@ -100,12 +107,6 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, max-content);
         gap: 20px;
-    }
-
-    /* Product Info Tabs Section */
-
-    .product-info-tabs-section {
-        width: 100% !important;
     }
 }
 
@@ -244,5 +245,9 @@
 
     .product-info-tabs {
         font-size: 13px !important;
+    }
+
+    .product-comment-username {
+        font-size: 12px !important;
     }
 }

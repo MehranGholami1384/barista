@@ -39,6 +39,7 @@
     --color-gray11: #9da5ae;
     --color-gray12: #7a7a7a;
     --color-gray13: #555555;
+    --color-gray14: #767676;
     --color-green1: #4D8B55;
     --color-white1: #ffffff;
     --color-white2: #ffffff99;
@@ -101,6 +102,10 @@
 
 .fill-gray13 {
     fill: var(--color-gray13) !important;
+}
+
+.color-gray14 {
+    color: var(--color-gray14) !important;
 }
 
 .color-yellow1 {

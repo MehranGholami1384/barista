@@ -149,6 +149,7 @@ $(document).ready(function () {
         $('.zoom-img').fadeOut(150, function () {
             $(this).attr('src', imgSrc)
             $(this).fadeIn(150);
+            setZoom()
         });
         $('.product-img-slider-btn').removeClass('active')
         $(this).addClass('active')
