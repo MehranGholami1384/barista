@@ -195,13 +195,23 @@
                     </svg>
                 </div>
             </nav>
-            <button class="btn border-0 text-white d-inline-block d-lg-none">
-                <svg xmlns="http://www.w3.org/2000/svg" width="35" fill="currentColor"
-                    class="bi bi-list open-side-nav-btn" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
-                </svg>
-            </button>
+            <div class="d-flex align-items-center justify-content-center gap-2 gap-sm-4">
+                <a href="./cart.html" class="btn cart-btn color-white1 position-relative border-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" fill="currentColor" class="bi bi-bag transition"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                    </svg>
+                    <span class="cart-mobile-count position-absolute bg-green1 rounded-circle">0</span>
+                </a>
+                <button class="btn border-0 text-white d-inline-block d-lg-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" fill="currentColor"
+                        class="bi bi-list open-side-nav-btn" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                    </svg>
+                </button>
+            </div>
         </header>
         <!-- Head Title Section -->
         <section
@@ -544,7 +554,8 @@
             </div>
         </section>
         <!-- Related Products Section -->
-        <section class="related-products-section my-5 px-3 d-flex flex-column align-items-start justify-content-center align-content-stretch mx-auto">
+        <section
+            class="related-products-section my-5 px-3 d-flex flex-column align-items-start justify-content-center align-content-stretch mx-auto">
             <h6 class="m-0 fw-bold">
                 محصولات مرتبط
             </h6>
