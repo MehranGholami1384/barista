@@ -14,7 +14,8 @@
 
     /* Product Info Tabs Section */
 
-    .product-info-tabs-section {
+    .product-info-tabs-section,
+    .related-products-section {
         width: 100% !important;
     }
 }
@@ -50,7 +51,8 @@
     }
 
     /* best selling products section */
-    .best-selling-products-grid {
+    .best-selling-products-grid,
+    .related-products-grid {
         grid-template-columns: repeat(3, 1fr) !important;
     }
 
@@ -122,7 +124,8 @@
     }
 
     /* best selling products section */
-    .best-selling-products-grid {
+    .best-selling-products-grid,
+    .related-products-grid {
         grid-template-columns: repeat(2, 1fr) !important;
     }
 

@@ -338,7 +338,8 @@ video::-internal-media-controls-download-button {
     z-index: 0;
 }
 
-.best-selling-products-grid {
+.best-selling-products-grid,
+.related-products-grid {
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(5, 1fr);
@@ -625,7 +626,8 @@ video::-internal-media-controls-download-button {
     gap: 10px;
 }
 
-.product-info-tabs-section {
+.product-info-tabs-section,
+.related-products-section {
     width: 1150px;
 }
 
