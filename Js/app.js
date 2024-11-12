@@ -63,6 +63,10 @@ $(document).ready(function () {
         $('.cart-off-canvas-overlay').addClass('d-none').removeClass('z-index-50')
         $('.cart-off-canvas').removeClass('active z-index-50')
         $('.coffee-beans-preparation-steps-container').removeClass('active z-index-50')
+
+        let video = document.querySelector('.coffee-beans-preparation-steps-video')
+        video.pause()
+        video.currentTime = 0
     })
 
     // main --------------------------------------------------------------------------------------------------------------
